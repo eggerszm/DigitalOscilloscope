@@ -1,0 +1,28 @@
+vhdl xil_defaultlib  \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/b41e/hdl/enhancedPWM_v1_0_S00_AXI.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/b41e/src/basicBuildingBlocksVhdl_package.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/b41e/src/enhancedPWM.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/b41e/src/genericComparator.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/b41e/src/genericCounter.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/b41e/hdl/enhancedPWM_v1_0.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/b41e/src/genericRegister.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_enhancedPWM_0_0/sim/OscopeWithZynq_enhancedPWM_0_0.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_enhancedPWM_1_0/sim/OscopeWithZynq_enhancedPWM_1_0.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_rst_ps7_0_50M_0/sim/OscopeWithZynq_rst_ps7_0_50M_0.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0_S00_AXI.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/scopeToHdmi_package.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_package.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/basicBuildingBlocksVhdl_package.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_fsm.vhdl" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/flagRegister.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericMux4x1.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/scopeFace.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/videoSignalGenerator.vhdl" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/sim/OscopeWithZynq_acquireToHDMI_0_0.vhd" \
+"../../../../OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/sim/OscopeWithZynq.vhd" \
+
+# Do not sort compile order
+nosort

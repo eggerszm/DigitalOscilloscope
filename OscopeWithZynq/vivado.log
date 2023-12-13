@@ -1,0 +1,500 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Dec  4 08:15:28 2023
+# Process ID: 34372
+# Current directory: C:/Users/small/OscopeWithZynq
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13772 C:\Users\small\OscopeWithZynq\OscopeWithZynq.xpr
+# Log file: C:/Users/small/OscopeWithZynq/vivado.log
+# Journal file: C:/Users/small/OscopeWithZynq\vivado.jou
+# Running On: DESKTOP-3CA2G8O, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14877 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/small/OscopeWithZynq/OscopeWithZynq.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/small/ipRepo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:16 . Memory (MB): peak = 1563.508 ; gain = 320.070
+open_bd_design {C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd}
+Reading block design file <C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd>...
+Adding component instance block -- xilinx.com:user:enhancedPWM:1.0 - enhancedPWM_0
+Adding component instance block -- xilinx.com:user:enhancedPWM:1.0 - enhancedPWM_1
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- xilinx.com:user:acquireToHDMI:1.0 - acquireToHDMI_0
+Successfully read diagram <OscopeWithZynq> from block design file <C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1604.078 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec  4 08:16:21 2023] Launched impl_1...
+Run output will be captured here: C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/impl_1/runme.log
+ipx::edit_ip_in_project -upgrade true -name acquireToHDMI_v1_0_project -directory C:/Users/small/OscopeWithZynq/OscopeWithZynq.tmp/acquireToHDMI_v1_0_project c:/Users/small/ipRepo/acquireToHDMI_1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1604.078 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/small/ipRepo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 2017.590 ; gain = 413.512
+update_compile_order -fileset sources_1
+current_project OscopeWithZynq
+current_project acquireToHDMI_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/encode.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/serdes_10_to_1.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/srldelay.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/hdmi_tx_v1_0.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_7s_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_7s_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/encode.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/serdes_10_to_1.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/srldelay.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/hdmi_tx_v1_0.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_7s_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_7s_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "simulation/blk_mem_gen_v8_4.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+WARNING: [IP_Flow 19-11770] Clock interface 'S00_AXI_CLK' has no FREQ_HZ parameter.
+WARNING: [IP_Flow 19-801] The last file in file group "VHDL Synthesis" should be an HDL file: "src/blk_mem_gen_0/blk_mem_gen_0.xci".  During generation the IP Flow uses the last file to determine library and other information when generating the top wrapper file.  If possible, please make sure that non-HDL files are located earlier in the list of files for this file group.
+WARNING: [IP_Flow 19-801] The last file in file group "VHDL Simulation" should be an HDL file: "src/blk_mem_gen_0/blk_mem_gen_0.xci".  During generation the IP Flow uses the last file to determine library and other information when generating the top wrapper file.  If possible, please make sure that non-HDL files are located earlier in the list of files for this file group.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/small/ipRepo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/small/ipRepo'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:acquireToHDMI:1.0 [get_ips  OscopeWithZynq_acquireToHDMI_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd'
+INFO: [IP_Flow 19-3422] Upgraded OscopeWithZynq_acquireToHDMI_0_0 (acquireToHDMI_v1.0 1.0) from revision 4 to revision 5
+WARNING: [IP_Flow 19-11784] File 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/b9a8/src/genericMux4x1.vhd' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11784] File 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/b9a8/src/genericRegister.vhd' is not registered in generated file cache.
+Wrote  : <C:\Users\small\OscopeWithZynq\OscopeWithZynq.srcs\sources_1\bd\OscopeWithZynq\OscopeWithZynq.bd> 
+Wrote  : <C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/ui/bd_7f2c04d.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/small/OscopeWithZynq/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips OscopeWithZynq_acquireToHDMI_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd]
+Wrote  : <C:\Users\small\OscopeWithZynq\OscopeWithZynq.srcs\sources_1\bd\OscopeWithZynq\OscopeWithZynq.bd> 
+VHDL Output written to : c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/synth/OscopeWithZynq.vhd
+VHDL Output written to : c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/sim/OscopeWithZynq.vhd
+VHDL Output written to : c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/hdl/OscopeWithZynq_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block acquireToHDMI_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/hw_handoff/OscopeWithZynq.hwh
+Generated Hardware Definition File c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/synth/OscopeWithZynq.hwdef
+generate_target: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2114.441 ; gain = 28.633
+catch { config_ip_cache -export [get_ips -all OscopeWithZynq_acquireToHDMI_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: OscopeWithZynq_acquireToHDMI_0_0
+catch { config_ip_cache -export [get_ips -all OscopeWithZynq_auto_pc_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: OscopeWithZynq_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 687f8ec57b3f8df9 to dir: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0.dcp to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_sim_netlist.v to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_sim_netlist.vhdl to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_stub.v to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_stub.vhdl to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP OscopeWithZynq_auto_pc_0, cache-ID = 687f8ec57b3f8df9; cache size = 1.957 MB.
+export_ip_user_files -of_objects [get_files C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd]
+launch_runs OscopeWithZynq_acquireToHDMI_0_0_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: OscopeWithZynq_acquireToHDMI_0_0
+[Mon Dec  4 09:14:52 2023] Launched OscopeWithZynq_acquireToHDMI_0_0_synth_1...
+Run output will be captured here: C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/OscopeWithZynq_acquireToHDMI_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd] -directory C:/Users/small/OscopeWithZynq/OscopeWithZynq.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/small/OscopeWithZynq/OscopeWithZynq.ip_user_files -ipstatic_source_dir C:/Users/small/OscopeWithZynq/OscopeWithZynq.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/compile_simlib/modelsim} {questa=C:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/compile_simlib/questa} {riviera=C:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/compile_simlib/riviera} {activehdl=C:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/utils_1/imports/synth_1/OscopeWithZynq_wrapper.dcp with file C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/synth_1/OscopeWithZynq_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: OscopeWithZynq_acquireToHDMI_0_0
+[Mon Dec  4 09:15:24 2023] Launched OscopeWithZynq_acquireToHDMI_0_0_synth_1, synth_1...
+Run output will be captured here:
+OscopeWithZynq_acquireToHDMI_0_0_synth_1: C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/OscopeWithZynq_acquireToHDMI_0_0_synth_1/runme.log
+synth_1: C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/synth_1/runme.log
+[Mon Dec  4 09:15:24 2023] Launched impl_1...
+Run output will be captured here: C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file C:/Users/small/OscopeWithZynq/OscopeWithZynq_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/small/OscopeWithZynq/OscopeWithZynq_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/small/OscopeWithZynq/OscopeWithZynq_wrapper.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vivado/2023.1/data/embeddedsw) loading 1 seconds
+open_project C:/Users/small/Lab04_OscilliscopeDatapathAndControl/Lab04_OscilliscopeDatapathAndControl.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/small/ipRepo/acquireToHDMI_1_0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/small/ipRepo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+update_compile_order -fileset sources_1
+current_project OscopeWithZynq
+ipx::edit_ip_in_project -upgrade true -name acquireToHDMI_v1_0_project -directory C:/Users/small/OscopeWithZynq/OscopeWithZynq.tmp/acquireToHDMI_v1_0_project c:/Users/small/ipRepo/acquireToHDMI_1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2280.852 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/small/ipRepo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 2280.852 ; gain = 0.000
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 6 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/encode.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/serdes_10_to_1.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/srldelay.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "hdl/hdmi_tx_v1_0.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_7s_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_7s_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/encode.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/serdes_10_to_1.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/srldelay.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "hdl/hdmi_tx_v1_0.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_7s_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_7s_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_pll.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "mmcm_pll_drp_func_us_plus_mmcm.vh" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+CRITICAL WARNING: [IP_Flow 19-626] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': verilogSource subcore file "simulation/blk_mem_gen_v8_4.v" is referenced from the pure language VHDL file group. Please consider changing the file group type to support mixed language sources.
+WARNING: [IP_Flow 19-11770] Clock interface 'S00_AXI_CLK' has no FREQ_HZ parameter.
+WARNING: [IP_Flow 19-801] The last file in file group "VHDL Synthesis" should be an HDL file: "src/blk_mem_gen_0/blk_mem_gen_0.xci".  During generation the IP Flow uses the last file to determine library and other information when generating the top wrapper file.  If possible, please make sure that non-HDL files are located earlier in the list of files for this file group.
+WARNING: [IP_Flow 19-801] The last file in file group "VHDL Simulation" should be an HDL file: "src/blk_mem_gen_0/blk_mem_gen_0.xci".  During generation the IP Flow uses the last file to determine library and other information when generating the top wrapper file.  If possible, please make sure that non-HDL files are located earlier in the list of files for this file group.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/small/ipRepo/acquireToHDMI_1_0
+CRITICAL WARNING: [IP_Flow 19-1681] Failed to reload user IP repository 'c:/Users/small/ipRepo/acquireToHDMI_1_0'. ''c:/Users/small/ipRepo/acquireToHDMI_1_0' is not valid: Path is contained within another repository.'
+0
+close_project
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/small/ipRepo'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:acquireToHDMI:1.0 [get_ips  OscopeWithZynq_acquireToHDMI_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd'
+INFO: [IP_Flow 19-3422] Upgraded OscopeWithZynq_acquireToHDMI_0_0 (acquireToHDMI_v1.0 1.0) from revision 5 to revision 6
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'forcedModeOut_ext'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'OscopeWithZynq_acquireToHDMI_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'OscopeWithZynq_acquireToHDMI_0_0' has identified issues that may require user intervention. Please review the upgrade log 'c:/Users/small/OscopeWithZynq/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : <C:\Users\small\OscopeWithZynq\OscopeWithZynq.srcs\sources_1\bd\OscopeWithZynq\OscopeWithZynq.bd> 
+Wrote  : <C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/ui/bd_7f2c04d.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/small/OscopeWithZynq/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips OscopeWithZynq_acquireToHDMI_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd]
+Wrote  : <C:\Users\small\OscopeWithZynq\OscopeWithZynq.srcs\sources_1\bd\OscopeWithZynq\OscopeWithZynq.bd> 
+VHDL Output written to : c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/synth/OscopeWithZynq.vhd
+VHDL Output written to : c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/sim/OscopeWithZynq.vhd
+VHDL Output written to : c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/hdl/OscopeWithZynq_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block acquireToHDMI_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/hw_handoff/OscopeWithZynq.hwh
+Generated Hardware Definition File c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/synth/OscopeWithZynq.hwdef
+generate_target: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2280.852 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all OscopeWithZynq_acquireToHDMI_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: OscopeWithZynq_acquireToHDMI_0_0
+catch { config_ip_cache -export [get_ips -all OscopeWithZynq_auto_pc_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: OscopeWithZynq_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 687f8ec57b3f8df9 to dir: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0.dcp to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_sim_netlist.v to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_sim_netlist.vhdl to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_stub.v to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_stub.vhdl to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP OscopeWithZynq_auto_pc_0, cache-ID = 687f8ec57b3f8df9; cache size = 3.574 MB.
+export_ip_user_files -of_objects [get_files C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd]
+launch_runs OscopeWithZynq_acquireToHDMI_0_0_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: OscopeWithZynq_acquireToHDMI_0_0
+[Mon Dec  4 20:11:06 2023] Launched OscopeWithZynq_acquireToHDMI_0_0_synth_1...
+Run output will be captured here: C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/OscopeWithZynq_acquireToHDMI_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/OscopeWithZynq.bd] -directory C:/Users/small/OscopeWithZynq/OscopeWithZynq.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/small/OscopeWithZynq/OscopeWithZynq.ip_user_files -ipstatic_source_dir C:/Users/small/OscopeWithZynq/OscopeWithZynq.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/compile_simlib/modelsim} {questa=C:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/compile_simlib/questa} {riviera=C:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/compile_simlib/riviera} {activehdl=C:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+startgroup
+make_bd_pins_external  [get_bd_pins acquireToHDMI_0/forcedModeOut_ext]
+endgroup
+report_ip_status -name ip_status 
+save_bd_design
+Wrote  : <C:\Users\small\OscopeWithZynq\OscopeWithZynq.srcs\sources_1\bd\OscopeWithZynq\OscopeWithZynq.bd> 
+Wrote  : <C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/sources_1/bd/OscopeWithZynq/ui/bd_7f2c04d.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/small/OscopeWithZynq/OscopeWithZynq.srcs/utils_1/imports/synth_1/OscopeWithZynq_wrapper.dcp with file C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/synth_1/OscopeWithZynq_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+Wrote  : <C:\Users\small\OscopeWithZynq\OscopeWithZynq.srcs\sources_1\bd\OscopeWithZynq\OscopeWithZynq.bd> 
+VHDL Output written to : c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/synth/OscopeWithZynq.vhd
+VHDL Output written to : c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/sim/OscopeWithZynq.vhd
+VHDL Output written to : c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/hdl/OscopeWithZynq_wrapper.vhd
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/hw_handoff/OscopeWithZynq.hwh
+Generated Hardware Definition File c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/synth/OscopeWithZynq.hwdef
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: OscopeWithZynq_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 687f8ec57b3f8df9 to dir: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0.dcp to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_sim_netlist.v to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_sim_netlist.vhdl to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_stub.v to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/small/OscopeWithZynq/OscopeWithZynq.cache/ip/2023.1/6/8/687f8ec57b3f8df9/OscopeWithZynq_auto_pc_0_stub.vhdl to c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_auto_pc_0/OscopeWithZynq_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP OscopeWithZynq_auto_pc_0, cache-ID = 687f8ec57b3f8df9; cache size = 5.207 MB.
+[Mon Dec  4 20:13:09 2023] Launched synth_1...
+Run output will be captured here: C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/synth_1/runme.log
+[Mon Dec  4 20:13:09 2023] Launched impl_1...
+Run output will be captured here: C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2280.852 ; gain = 0.000
+report_ip_status -name ip_status 
+write_hw_platform -fixed -include_bit -force -file C:/Users/small/OscopeWithZynq/OscopeWithZynq_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/small/OscopeWithZynq/OscopeWithZynq_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/small/OscopeWithZynq/OscopeWithZynq_wrapper.xsa
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec  4 20:57:33 2023] Launched impl_1...
+Run output will be captured here: C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file C:/Users/small/OscopeWithZynq/OscopeWithZynq_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/small/OscopeWithZynq/OscopeWithZynq_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/small/OscopeWithZynq/OscopeWithZynq_wrapper.xsa
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 21:03:08 2023...

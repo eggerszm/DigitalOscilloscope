@@ -1,0 +1,674 @@
+
+*** Running vivado
+    with args -log OscopeWithZynq_acquireToHDMI_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source OscopeWithZynq_acquireToHDMI_0_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source OscopeWithZynq_acquireToHDMI_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 455.465 ; gain = 159.223
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/small/ipRepo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: OscopeWithZynq_acquireToHDMI_0_0
+Command: synth_design -top OscopeWithZynq_acquireToHDMI_0_0 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8304
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN0' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/encode.v:145]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN1' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/encode.v:146]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN2' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/encode.v:147]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN3' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/encode.v:148]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1284.605 ; gain = 410.262
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'OscopeWithZynq_acquireToHDMI_0_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/synth/OscopeWithZynq_acquireToHDMI_0_0.vhd:97]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'acquireToHDMI_v1_0' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0.vhd:5' bound to instance 'U0' of component 'acquireToHDMI_v1_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/synth/OscopeWithZynq_acquireToHDMI_0_0.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI_v1_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0.vhd:65]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'acquireToHDMI_v1_0_S00_AXI' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0_S00_AXI.vhd:5' bound to instance 'acquireToHDMI_v1_0_S00_AXI_inst' of component 'acquireToHDMI_v1_0_S00_AXI' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI_v1_0_S00_AXI' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0_S00_AXI.vhd:103]
+INFO: [Synth 8-226] default block is never used [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0_S00_AXI.vhd:282]
+INFO: [Synth 8-226] default block is never used [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0_S00_AXI.vhd:412]
+INFO: [Synth 8-3491] module 'acquireToHDMI' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI.vhd:12' bound to instance 'acquireToHDMI_inst' of component 'acquireToHDMI' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0_S00_AXI.vhd:446]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI.vhd:44]
+INFO: [Synth 8-3491] module 'acquireToHDMI_datapath' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:29' bound to instance 'datapath_inst' of component 'acquireToHDMI_datapath' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI_datapath' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:51]
+INFO: [Synth 8-3491] module 'videoSignalGenerator' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/videoSignalGenerator.vhdl:9' bound to instance 'videoSigGen' of component 'videoSignalGenerator' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:112]
+INFO: [Synth 8-638] synthesizing module 'videoSignalGenerator' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/videoSignalGenerator.vhdl:20]
+INFO: [Synth 8-256] done synthesizing module 'videoSignalGenerator' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/videoSignalGenerator.vhdl:20]
+INFO: [Synth 8-3491] module 'scopeFace' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/scopeFace.vhd:11' bound to instance 'oscopeFace' of component 'scopeFace' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:122]
+INFO: [Synth 8-638] synthesizing module 'scopeFace' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/scopeFace.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'scopeFace' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/scopeFace.vhd:28]
+INFO: [Synth 8-3491] module 'hdmi_tx_0' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/synth/hdmi_tx_0.v:53' bound to instance 'hdmi_tx' of component 'hdmi_tx_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:140]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/synth/hdmi_tx_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_v1_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:70]
+INFO: [Synth 8-6157] synthesizing module 'srldelay' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/srldelay.v:70]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132173]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:132173]
+INFO: [Synth 8-6155] done synthesizing module 'srldelay' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/srldelay.v:70]
+INFO: [Synth 8-6157] synthesizing module 'encode' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'encode__parameterized0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized0' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'encode__parameterized1' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized1' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'serdes_10_to_1' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/serdes_10_to_1.v:43]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95372]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95372]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95372]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95372]
+INFO: [Synth 8-6155] done synthesizing module 'serdes_10_to_1' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/serdes_10_to_1.v:43]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:91135]
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:91135]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_v1_0' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_0' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/synth/hdmi_tx_0.v:53]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/clk_wiz_0/clk_wiz_0.v:69' bound to instance 'vc' of component 'clk_wiz_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:161]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/clk_wiz_0/clk_wiz_0.v:69]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0_clk_wiz' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/clk_wiz_0/clk_wiz_0_clk_wiz.v:69]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:71768]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:71768]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:80311]
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:80311]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1519]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1519]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0_clk_wiz' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/clk_wiz_0/clk_wiz_0_clk_wiz.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/clk_wiz_0/clk_wiz_0.v:69]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:15' bound to instance 'shortCounter' of component 'genericCounter' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:204]
+INFO: [Synth 8-638] synthesizing module 'genericCounter' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'genericCounter' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:10' bound to instance 'shortCompare' of component 'genericCompare' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:213]
+INFO: [Synth 8-638] synthesizing module 'genericCompare' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'genericCompare' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:16]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:15' bound to instance 'longCounter' of component 'genericCounter' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:222]
+INFO: [Synth 8-638] synthesizing module 'genericCounter__parameterized1' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'genericCounter__parameterized1' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:23]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:10' bound to instance 'longCompare' of component 'genericCompare' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:231]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized1' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized1' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:16]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:15' bound to instance 'sampleCounter' of component 'genericCounter' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:240]
+INFO: [Synth 8-638] synthesizing module 'genericCounter__parameterized3' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'genericCounter__parameterized3' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:23]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'genericMux4x1' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericMux4x1.vhd:9' bound to instance 'sampleRateMux' of component 'genericMux4x1' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:250]
+INFO: [Synth 8-638] synthesizing module 'genericMux4x1' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericMux4x1.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'genericMux4x1' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericMux4x1.vhd:16]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:10' bound to instance 'sampleCompare' of component 'genericCompare' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:260]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized3' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized3' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:16]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericRegister.vhd:11' bound to instance 'ch1TriggerReg1' of component 'genericRegister' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:270]
+INFO: [Synth 8-638] synthesizing module 'genericRegister' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericRegister.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'genericRegister' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericRegister.vhd:18]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericRegister.vhd:11' bound to instance 'ch1TriggerReg2' of component 'genericRegister' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:279]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericRegister.vhd:11' bound to instance 'ch2TriggerReg1' of component 'genericRegister' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:293]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericRegister.vhd:11' bound to instance 'ch2TriggerReg2' of component 'genericRegister' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:302]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:15' bound to instance 'ch1WrCounter' of component 'genericCounter' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:318]
+INFO: [Synth 8-638] synthesizing module 'genericCounter__parameterized5' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'genericCounter__parameterized5' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericCounter.vhd:23]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:10' bound to instance 'ch1WrCompare' of component 'genericCompare' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:327]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized5' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized5' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:16]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:59' bound to instance 'ch1BRAM' of component 'blk_mem_gen_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:338]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:73]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: blk_mem_gen_0.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 16 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 16 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 1160 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 1160 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 16 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 1160 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 1160 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 1 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 1 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     4.7745 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_6' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_6' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:243]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:73]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:10' bound to instance 'ch1PixelCompare' of component 'genericCompare' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:353]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:59' bound to instance 'ch2BRAM' of component 'blk_mem_gen_0' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:362]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/genericComparator.vhd:10' bound to instance 'ch2PixelCompare' of component 'genericCompare' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:377]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'flagRegister' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/flagRegister.vhd:23' bound to instance 'flagReg' of component 'flagRegister' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:392]
+INFO: [Synth 8-638] synthesizing module 'flagRegister' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/flagRegister.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'flagRegister' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/flagRegister.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI_datapath' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:51]
+INFO: [Synth 8-3491] module 'acquireToHDMI_fsm' declared at 'c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_fsm.vhdl:25' bound to instance 'control_inst' of component 'acquireToHDMI_fsm' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI_fsm' [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_fsm.vhdl:35]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI_fsm' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_fsm.vhdl:35]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI_v1_0_S00_AXI' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0_S00_AXI.vhd:103]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI_v1_0' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'OscopeWithZynq_acquireToHDMI_0_0' (0#1) [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/synth/OscopeWithZynq_acquireToHDMI_0_0.vhd:97]
+WARNING: [Synth 8-6014] Unused sequential element hdmi_ctl1_reg was removed.  [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:148]
+WARNING: [Synth 8-3848] Net trigTime in module/entity acquireToHDMI_datapath does not have driver. [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/src/acquireToHDMI_datapath.vhdl:70]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg0_reg was removed.  [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0_S00_AXI.vhd:275]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0_S00_AXI.vhd:276]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ipshared/5946/hdl/acquireToHDMI_v1_0_S00_AXI.vhd:277]
+WARNING: [Synth 8-7129] Port sw[5] in module acquireToHDMI_fsm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLKB in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[15] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[14] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[13] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[12] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[11] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[10] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[9] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[8] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[7] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[6] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[5] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[4] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[3] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[2] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[1] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[0] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR_I in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR_I in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[10] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[9] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[8] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[7] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[6] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[5] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[4] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[3] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[2] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[1] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[0] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[17] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[16] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[15] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[14] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[13] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[12] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[11] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[10] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[9] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[8] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[7] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[6] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[5] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[4] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[3] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[2] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[1] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[0] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEA in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEB[0] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[17] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[16] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[15] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[14] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[13] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[12] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[11] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[10] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[9] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[8] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[7] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[6] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[5] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[4] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[3] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[2] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[1] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[0] in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEA[0] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEA[1] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RSTB[0] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEB[1] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RSTA in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEA in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RSTB in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEB in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEB[0] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[15] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[14] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[13] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[12] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[11] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[10] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[9] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[8] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[7] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[6] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[5] in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[4] in module blk_mem_input_block is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1613.660 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/clk_wiz_0/clk_wiz_0.xdc] for cell 'U0/acquireToHDMI_v1_0_S00_AXI_inst/acquireToHDMI_inst/datapath_inst/vc/inst'
+Finished Parsing XDC File [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/clk_wiz_0/clk_wiz_0.xdc] for cell 'U0/acquireToHDMI_v1_0_S00_AXI_inst/acquireToHDMI_inst/datapath_inst/vc/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/small/OscopeWithZynq/OscopeWithZynq.gen/sources_1/bd/OscopeWithZynq/ip/OscopeWithZynq_acquireToHDMI_0_0/src/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/OscopeWithZynq_acquireToHDMI_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/OscopeWithZynq_acquireToHDMI_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/OscopeWithZynq_acquireToHDMI_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/OscopeWithZynq_acquireToHDMI_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/OscopeWithZynq_acquireToHDMI_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/OscopeWithZynq_acquireToHDMI_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/OscopeWithZynq_acquireToHDMI_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1613.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1613.660 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0/acquireToHDMI_v1_0_S00_AXI_inst/acquireToHDMI_inst/datapath_inst/vc/inst. (constraint file  C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/OscopeWithZynq_acquireToHDMI_0_0_synth_1/dont_touch.xdc, line 17).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/acquireToHDMI_v1_0_S00_AXI_inst/acquireToHDMI_inst/datapath_inst/ch1BRAM. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/acquireToHDMI_v1_0_S00_AXI_inst/acquireToHDMI_inst/datapath_inst/ch2BRAM. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/acquireToHDMI_v1_0_S00_AXI_inst/acquireToHDMI_inst/datapath_inst/vc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/acquireToHDMI_v1_0_S00_AXI_inst/acquireToHDMI_inst/datapath_inst/hdmi_tx. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'acquireToHDMI_fsm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             reset_state |            000000000000000000001 |                            00000
+        long_delay_state |            000000000000000000010 |                            00001
+      reset_ad7606_state |            000000000000000000100 |                            00010
+       wait_forced_state |            000000000000000001000 |                            00011
+         set_store_state |            000000000000000010000 |                            00100
+  begin_conversion_state |            000000000000000100000 |                            00110
+     assert_convst_state |            000000000000001000000 |                            00111
+            busy_0_state |            000000000000010000000 |                            01000
+            busy_1_state |            000000000000100000000 |                            01001
+      read_ch1_low_state |            000000000001000000000 |                            01010
+    write_ch1_bram_state |            000000000010000000000 |                            01100
+ write_ch1_trigger_state |            000000000100000000000 |                            01011
+     read_ch1_high_state |            000000001000000000000 |                            01101
+       reset_short_state |            000000010000000000000 |                            01110
+      read_ch2_low_state |            000000100000000000000 |                            01111
+    write_ch2_bram_state |            000001000000000000000 |                            10001
+ write_ch2_trigger_state |            000010000000000000000 |                            10000
+     read_ch2_high_state |            000100000000000000000 |                            10010
+        end_sample_state |            001000000000000000000 |                            10011
+         bram_full_state |            010000000000000000000 |                            10100
+       clear_store_state |            100000000000000000000 |                            00101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'acquireToHDMI_fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   24 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 21    
+	   2 Input    8 Bit       Adders := 1     
+	   5 Input    5 Bit       Adders := 6     
+	   4 Input    5 Bit       Adders := 3     
+	   8 Input    4 Bit       Adders := 6     
+	   2 Input    4 Bit       Adders := 3     
++---XORs : 
+	   2 Input      3 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 43    
++---Registers : 
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 5     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 7     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 17    
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 48    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 2     
+	   4 Input   24 Bit        Muxes := 1     
+	  21 Input   22 Bit        Muxes := 1     
+	  21 Input   21 Bit        Muxes := 1     
+	   2 Input   21 Bit        Muxes := 6     
+	   4 Input   12 Bit        Muxes := 2     
+	   4 Input   11 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 6     
+	  22 Input   10 Bit        Muxes := 1     
+	   4 Input   10 Bit        Muxes := 2     
+	   5 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 7     
+	   4 Input    8 Bit        Muxes := 1     
+	   3 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 12    
+	  21 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 6     
+	   2 Input    2 Bit        Muxes := 6     
+	   2 Input    1 Bit        Muxes := 44    
+	  40 Input    1 Bit        Muxes := 2     
+	   9 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 4     
+	  21 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP ARG, operation Mode is: A*(B:0x3fd6c).
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*(B:0x3fd6c).
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*(B:0x3fd6c).
+DSP Report: operator ARG is absorbed into DSP ARG.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-----------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name            | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|acquireToHDMI_datapath | A*(B:0x3fd6c) | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|acquireToHDMI_datapath | A*(B:0x3fd6c) | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|acquireToHDMI_datapath | A*(B:0x3fd6c) | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-----------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|hdmi_tx_0   | inst/encg/c0_reg_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name            | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|acquireToHDMI_datapath | A*B         | 30     | 18     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|acquireToHDMI_datapath | A*B         | 30     | 18     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|acquireToHDMI_datapath | A*B         | 30     | 18     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     3|
+|2     |CARRY4     |    53|
+|3     |DSP48E1    |     3|
+|4     |LUT1       |     9|
+|5     |LUT2       |   158|
+|6     |LUT3       |   125|
+|7     |LUT4       |   209|
+|8     |LUT5       |   181|
+|9     |LUT6       |   376|
+|10    |MMCME2_ADV |     1|
+|11    |OSERDESE2  |     8|
+|13    |RAMB36E1   |     2|
+|14    |SRL16E     |    39|
+|15    |FDCE       |    42|
+|16    |FDRE       |   388|
+|17    |FDSE       |     6|
+|18    |IBUF       |     1|
+|19    |OBUFDS     |     4|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1613.660 ; gain = 739.316
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 173 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:47 . Memory (MB): peak = 1613.660 ; gain = 739.316
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1613.660 ; gain = 739.316
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1613.660 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 63 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1613.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: fdf130e2
+INFO: [Common 17-83] Releasing license: Synthesis
+129 Infos, 110 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1613.660 ; gain = 1122.879
+INFO: [Common 17-1381] The checkpoint 'C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/OscopeWithZynq_acquireToHDMI_0_0_synth_1/OscopeWithZynq_acquireToHDMI_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP OscopeWithZynq_acquireToHDMI_0_0, cache-ID = fee0d534477d68d2
+INFO: [Coretcl 2-1174] Renamed 45 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/small/OscopeWithZynq/OscopeWithZynq.runs/OscopeWithZynq_acquireToHDMI_0_0_synth_1/OscopeWithZynq_acquireToHDMI_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file OscopeWithZynq_acquireToHDMI_0_0_utilization_synth.rpt -pb OscopeWithZynq_acquireToHDMI_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  6 11:01:46 2023...
